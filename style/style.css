@@ -1,0 +1,175 @@
+*,
+html{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #121212;
+}
+.judul{
+    font-size: 400%;
+    padding-left: 40px;
+    padding-top:60px;
+    justify-content: center;
+}
+.fb{
+    width: 30px;
+    height: auto;
+}
+
+.fb:hover{
+    rotate: 45deg;
+    transition: .5s;
+}
+
+.wa{
+    width: 30px;
+    height: auto;
+}
+
+.wa:hover{
+    rotate: 45deg;
+    transition: .5s;
+}
+.ig{
+    width: 30px;
+    height: auto;
+}
+
+.ig:hover{
+    rotate: 45deg;
+    transition: .5s;
+}
+
+.ul-navbar{
+    background-color: #282828;
+    display: flex;
+    height: 100%;
+}
+.li-navbar{
+    padding: 10px;
+    align-items: center;
+    list-style-type: none;
+ }
+
+ .a-navbar{
+    color: white;
+    text-decoration: none;
+ }
+
+ .container-navbar{
+    background-color: #282828;
+    display:flex ;
+    margin-top: 1px;
+    justify-content: left;
+    align-items:center;
+    height: 8vh;
+    width: 100%;
+ }
+
+ .li-navbar:hover{
+    background-color: #4b4b4b;
+
+ }
+
+ @font-face { 
+    font-family: 'MyFont'; 
+    src: url('asset/to/Party Birthday.otf') format('opentype'); 
+    font-weight: normal; 
+    font-style: normal; 
+ } 
+ .ttl{
+    color: white;
+    font-family: 'MyFont';
+    margin: 200px;
+    font-size: 130%;
+ }
+
+ .img{
+    width: 30px;
+    height: auto;
+ }
+ .li-icon{
+    display: flex;
+    padding: 100px;
+}
+
+.asset{
+    display: flex;
+    background-color: #3f3f3f;
+    margin-top: 1px;
+    height: 7vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.a-icon{
+    list-style-type:none;
+    text-decoration: none;
+    color: #3f3f3f;
+    padding-left: 10px;
+}
+
+.a-icon:hover{
+    list-style-type:none;
+    text-decoration: none;
+    color: white;
+    padding-left: 10px;
+    transition: .5s ease-out;
+
+ }
+  
+ .isi{
+    color: white;
+ }
+.pend{
+    padding-top: 15px;
+}
+
+.skill{
+    color: white;
+    padding-top: 30px;
+    padding-left: 15px;
+}
+
+.pend{
+    font-size: 150%;
+    color: white;
+    padding-top: 30px;
+    padding-left: 15px;
+    padding-bottom: 5px;
+}
+
+.abo{
+    width: 20px;
+    height: auto;
+}
+
+.aco{
+    width: 30px;
+    height: auto;
+}
+
+.ako{
+    width: 50px;
+    height: auto;
+}
+.footer{
+    background-color: #282828;
+    position: absolute; 
+    bottom: 0; 
+    z-index: 10;
+    width: 100%;
+    height: 10vh;
+    justify-content: center;
+    align-items: center; 
+}
+
+.prt{
+    padding-left: 550px;
+    padding-top: 20px;
+    font-size: 150%;
+    color: white;
+    font-family: 'MyFont';
+    }
